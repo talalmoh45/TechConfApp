@@ -4,7 +4,7 @@ app_dir = os.path.abspath(os.path.dirname(__file__))
 
 class BaseConfig:
     DEBUG = True
-    POSTGRES_URL="tecno-server.postgres.database.azure.com"  #TODO: Update value
+    POSTGRES_URL="techconfserver.postgres.database.azure.com"  #TODO: Update value
     POSTGRES_USER="talaladmin" #TODO: Update value
     POSTGRES_PW="0541431847Aa"   #TODO: Update value
     POSTGRES_DB="techconfdb"   #TODO: Update value
